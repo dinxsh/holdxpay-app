@@ -13,8 +13,8 @@ export default function LoginScreen() {
   const colors = Colors[colorScheme ?? 'light'];
   const { signIn } = useAuth();
 
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('swamishubham614@gmail.com');
+  const [password, setPassword] = useState('12345678');
   const [isLoading, setIsLoading] = useState(false);
   const [errors, setErrors] = useState({ email: '', password: '' });
   const [showPassword, setShowPassword] = useState(false);
@@ -57,7 +57,7 @@ export default function LoginScreen() {
         }
       } catch (error) {
         Alert.alert(
-          'Login Error',
+          'in Error',
           error instanceof Error ? error.message : 'An unexpected error occurred'
         );
       } finally {

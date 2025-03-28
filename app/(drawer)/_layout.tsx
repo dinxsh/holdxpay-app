@@ -1,3 +1,3 @@
-import { DrawerLayout } from '../_layout';
+import RootLayout from '../_layout';
 
-export default DrawerLayout;
+export default RootLayout;
